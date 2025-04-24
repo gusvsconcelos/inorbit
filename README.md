@@ -97,7 +97,8 @@ inorbit/
      ```
    - Run database migrations:
      ```bash
-     npx drizzle-kit up
+     npx drizzle-kit generate
+     npx drizzle-kit migrate
      ```
 
 <br>
