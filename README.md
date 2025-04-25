@@ -97,7 +97,9 @@ inorbit/
      ```
    - Run database migrations:
      ```bash
-     npx drizzle-kit up
+     npx drizzle-kit generate
+     npx drizzle-kit migrate
+     npx drizzle-kit studio
      ```
 
 <br>
@@ -129,8 +131,6 @@ inorbit/
    ```bash
    npm run dev
    ```
-
-3. The server will be available at [http://localhost:3333](http://localhost:3333).
 
 ### Using the CLI
 
