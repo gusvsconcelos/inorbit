@@ -1,20 +1,22 @@
 interface CreateGoalRequest {
-  title: string
-  desiredWeeklyFrequency: number
+	title: string;
+	desiredWeeklyFrequency: number;
 }
 
 export async function createGoal({
-  title,
-  desiredWeeklyFrequency,
+	title,
+	desiredWeeklyFrequency,
 }: CreateGoalRequest) {
-  await fetch('http://localhost:3333/goals', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      title,
-      desiredWeeklyFrequency,
-    }),
-  })
+	const API_URL = import.meta.env.VITE_API_URL;
+
+	await fetch(`${API_URL}/goals`, {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+		},
+		body: JSON.stringify({
+			title,
+			desiredWeeklyFrequency,
+		}),
+	});
 }
