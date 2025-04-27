@@ -1,6 +1,6 @@
-# in.Orbit
+# in.orbit
 
-**in.Orbit** is a habit-tracking application designed to help users set, manage, and track their goals. It provides a user-friendly interface for creating goals, marking them as completed, and viewing progress over time. The project consists of three main components: a **client** (frontend), a **server** (backend), and a **CLI tool** for managing goals.
+**in.orbit** is a habit-tracking application designed to help users set, manage, and track their goals. It provides a user-friendly interface for creating goals, marking them as completed, and viewing progress over time. The project consists of three main components: a **client** (frontend), a **server** (backend), and a **CLI tool** for managing goals.
 
 <br>
 
