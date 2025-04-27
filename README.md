@@ -194,6 +194,13 @@ The server exposes the following API endpoints:
 ### CLI
 - **Inquirer.js**: Interactive CLI prompts.
 
+<br>
+
+## To-do
+- Delete Goal functionality
+
+<br>
+
 ## License
 
 This project is licensed under the MIT License.
